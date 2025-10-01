@@ -1,6 +1,5 @@
 article{
     max-width: 320px;
-    /*max-height: 499px;*/
     height: 90%;
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -32,12 +31,5 @@ section{
         margin-left: 20px;
         margin-right: 20px;  
 
-    }
-}
-
-@media (min-width: 600px){
-    article{
-        width: 320px;
-        height: 499px;
     }
 }
