@@ -5,6 +5,7 @@ article{
     border-radius: 20px;
     justify-items: center;
     padding-top: 16px;
+    padding-bottom: 24px;
 }
 
 figure{
@@ -20,50 +21,14 @@ figure{
 section{
     margin: 16px;
     text-align: center;
-}
-
-/*Responsividad para tablets*/
-
-@media (min-width: 600px){
-    article{
-        width: 400px;
-        height: 550px;
+    h1{
+        margin-left: 18px;
+        margin-right: 18px;
     }
-    figure img {
-        width: 350px;
-        height: 350px;
+    p{
+        margin-left: 20px;
+        margin-right: 20px;  
+
     }
 }
 
-/*Responsividad para desktops*/
-@media (min-width: 900px) {
-    article {
-        width: 500px;
-        height: 600px;
-    }
-    figure img {
-        width: 450px;
-        height: 450px;
-    }
-}
-
-/* Responsividad para teléfonos */
-@media (max-width: 480px) {
-    article {
-        width: 95vw;
-        height: auto;
-        min-height: 350px;
-        padding-top: 8px;
-        border-radius: 12px;
-    }
-    figure img {
-        width: 80vw;
-        height: auto;
-        max-width: 250px;
-        border-radius: 8px;
-    }
-    section {
-        margin: 8px;
-        font-size: 1rem;
-    }
-}
