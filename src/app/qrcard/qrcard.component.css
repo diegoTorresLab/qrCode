@@ -1,20 +1,23 @@
 article{
     max-width: 320px;
-    max-height: 499px;
+    /*max-height: 499px;*/
+    height: 90%;
     background-color: #FFFFFF;
     border-radius: 20px;
     justify-items: center;
-    padding-top: 16px;
-    padding-bottom: 24px;
+    padding: 16px 0 24px 0;
+    margin: 0 auto;
 }
 
 figure{
-    margin: 0;
+    margin: 0;  
     padding: 0;
     img{
+        width: 100%;
         max-width: 288px;
-        max-height: 288px;
+        height: auto;
         border-radius: 12px;
+        display: block;
     }
 }
 
@@ -32,3 +35,9 @@ section{
     }
 }
 
+@media (min-width: 600px){
+    article{
+        width: 320px;
+        height: 499px;
+    }
+}
